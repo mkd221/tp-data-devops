@@ -6,6 +6,7 @@ from pipeline import (
     transformer,
 )
 
+
 def donnees_exemple():
     return pd.DataFrame({
         "quantite": [2, 2, None, -1, 3],
